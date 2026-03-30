@@ -16,10 +16,10 @@ The goal is to design, simulate, verify, and synthesize a full hardware implemen
 
 ## 📁 Project Structure
 
-/direct/ → Section 4–5.1 Direct Implementation
-/rcs1/ → Section 5.2 Round-based Architecture
-/rcs2/ → Section 5.3 Optimized Sequential Architecture
-/rcs2plus/ → Section 5.4 Final Optimized Implementation
+- `/Direct_Implementation/` → Direct combinational implementation of the IDEA cipher
+- `/Resource_Constrained_Implementation1/` → Sequential round based architecture with reduced hardware usage
+- `/Resource_Constrained_Implementation2/` → More resource optimized scheduled architecture
+- `/Resource_Constrained_Implementation2Plus/` → Final optimized version with improved efficiency
 
 ---
 
