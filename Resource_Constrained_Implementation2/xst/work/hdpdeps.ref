@@ -1,0 +1,126 @@
+V3 71
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/addop.vhd 2026/01/26.12:33:50 P.20131013
+EN work/addop 1769517810 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/addop.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/addop/Behavioral 1769517811 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/addop.vhd \
+      EN work/addop 1769517810
+EN work/clk_div 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/clk_div.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clk_div/Behavioral 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/clk_div.vhd \
+      EN work/clk_div 0
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/clockedround.vhd 2026/01/27.12:14:13 P.20131013
+EN work/clockedround 1769517824 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/clockedround.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/clockedround/Structural 1769517825 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/clockedround.vhd \
+      EN work/clockedround 1769517824 CP control CP datapath
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/control.vhd 2026/01/26.22:49:45 P.20131013
+EN work/control 1769517816 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/control.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/control/Behavioral 1769517817 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/control.vhd \
+      EN work/control 1769517816
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/datapath.vhd 2026/01/27.12:13:33 P.20131013
+EN work/datapath 1769517818 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/datapath.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/datapath/Behavioral 1769517819 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/datapath.vhd \
+      EN work/datapath 1769517818 CP mux4x1 CP mulop CP addop CP xorop CP reg16
+EN work/idea_com 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/idea_com.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/idea_com/Behavioral 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/idea_com.vhd \
+      EN work/idea_com 0 CP clk_div CP idea_com_inner
+EN work/idea_com_inner 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/idea_com_inner.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/idea_com_inner/Behavioral 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/idea_com_inner.vhd \
+      EN work/idea_com_inner 0 CP uart CP idea_rcs2 CP mux2x1
+EN work/idea_rcs2 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/idea_rcs2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/idea_rcs2/Structural 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/idea_rcs2.vhd \
+      EN work/idea_rcs2 0 CP reg16 CP mux2x1 CP keygen CP clockedround \
+      CP roundcounter
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/keygen.vhd 2026/01/27.11:49:28 P.20131013
+EN work/keygen 1769517822 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/keygen.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/keygen/Behavioral 1769517823 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/keygen.vhd \
+      EN work/keygen 1769517822
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/mulop.vhd 2026/01/26.12:32:37 P.20131013
+EN work/mulop 1769517808 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/mulop.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/mulop/Behavioral 1769517809 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/mulop.vhd \
+      EN work/mulop 1769517808
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/mux2x1.vhd 2026/01/27.07:47:06 P.20131013
+EN work/mux2x1 1769517820 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/mux2x1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux2x1/Behavioral 1769517821 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/mux2x1.vhd \
+      EN work/mux2x1 1769517820
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/mux4x1.vhd 2026/01/24.16:09:20 P.20131013
+EN work/mux4x1 1769517806 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/mux4x1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux4x1/Behavioral 1769517807 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/mux4x1.vhd \
+      EN work/mux4x1 1769517806
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/reg16.vhd 2026/01/26.12:31:11 P.20131013
+EN work/reg16 1769517814 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/reg16.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/reg16/Behavioral 1769517815 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/reg16.vhd \
+      EN work/reg16 1769517814
+EN work/roundcounter 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/roundcounter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/roundcounter/Behavioral 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/roundcounter.vhd \
+      EN work/roundcounter 0
+EN work/rxcver 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/rxcver.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/std_logic_misc 1381692178 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/rxcver/behavior 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/rxcver.vhd \
+      EN work/rxcver 0
+EN work/txmit 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/txmit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/std_logic_misc 1381692178 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/txmit/behavior 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/txmit.vhd \
+      EN work/txmit 0
+EN work/uart 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/uart.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/std_logic_misc 1381692178 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/uart/behavior 0 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/uart.vhd \
+      EN work/uart 0 CP txmit CP rxcver
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/xorop.vhd 2026/01/26.12:34:57 P.20131013
+EN work/xorop 1769517812 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/xorop.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/xorop/Behavioral 1769517813 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/xorop.vhd \
+      EN work/xorop 1769517812

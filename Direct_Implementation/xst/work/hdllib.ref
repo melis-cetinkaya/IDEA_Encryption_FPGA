@@ -1,0 +1,12 @@
+EN idea NULL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/idea.vhd sub00/vhpl00 1763669460
+AR addop behavioral /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/addop.vhd sub00/vhpl05 1763669453
+EN mulop NULL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/mulop.vhd sub00/vhpl02 1763669450
+EN trafo NULL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/trafo.vhd sub00/vhpl10 1763669458
+AR round behavioral /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/round.vhd sub00/vhpl09 1763669457
+EN addop NULL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/addop.vhd sub00/vhpl04 1763669452
+AR trafo behavioral /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/trafo.vhd sub00/vhpl11 1763669459
+EN round NULL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/round.vhd sub00/vhpl08 1763669456
+EN xorop NULL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/xorop.vhd sub00/vhpl06 1763669454
+AR mulop behavioral /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/mulop.vhd sub00/vhpl03 1763669451
+AR idea structural /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/idea.vhd sub00/vhpl01 1763669461
+AR xorop behavioral /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/xorop.vhd sub00/vhpl07 1763669455

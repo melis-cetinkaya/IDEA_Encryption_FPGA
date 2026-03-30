@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="idea_rcs2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clockedround_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clockedround_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="control_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="control_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="control_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="control_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="datapath_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="idea_com.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="idea_com.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="idea_com.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="idea_com.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="idea_com.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="idea_com_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="idea_com_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="idea_com_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="idea_rcs2_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="idea_rcs2_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux4x1.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="mux4x1.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="mux4x1.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux4x1_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="roundcounter_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_clockedround_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_clockedround_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_idea_rcs2_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_idea_rcs2_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_idea_rcs2_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_roundcounter_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1769430567" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1769430567">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1769518199" xil_pn:in_ck="-5842145911190143227" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1769518199">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="addop.vhd"/>
+      <outfile xil_pn:name="clk_div.vhd"/>
+      <outfile xil_pn:name="clockedround.vhd"/>
+      <outfile xil_pn:name="control.vhd"/>
+      <outfile xil_pn:name="control_tb.vhd"/>
+      <outfile xil_pn:name="datapath.vhd"/>
+      <outfile xil_pn:name="idea_com.vhd"/>
+      <outfile xil_pn:name="idea_com_inner.vhd"/>
+      <outfile xil_pn:name="idea_rcs2.vhd"/>
+      <outfile xil_pn:name="keygen.vhd"/>
+      <outfile xil_pn:name="mulop.vhd"/>
+      <outfile xil_pn:name="mux2x1.vhd"/>
+      <outfile xil_pn:name="mux4x1.vhd"/>
+      <outfile xil_pn:name="reg16.vhd"/>
+      <outfile xil_pn:name="roundcounter.vhd"/>
+      <outfile xil_pn:name="rxcver.vhd"/>
+      <outfile xil_pn:name="tb_clockedround.vhd"/>
+      <outfile xil_pn:name="tb_idea_rcs2.vhd"/>
+      <outfile xil_pn:name="tb_roundcounter.vhd"/>
+      <outfile xil_pn:name="txmit.vhd"/>
+      <outfile xil_pn:name="uart.vhd"/>
+      <outfile xil_pn:name="xorop.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1769517859" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1752945563298167657" xil_pn:start_ts="1769517859">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1769517859" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5765915107468673625" xil_pn:start_ts="1769517859">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1769430567" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-5919875462312676356" xil_pn:start_ts="1769430567">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1769518226" xil_pn:in_ck="-5842145911190143227" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1769518226">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="addop.vhd"/>
+      <outfile xil_pn:name="clk_div.vhd"/>
+      <outfile xil_pn:name="clockedround.vhd"/>
+      <outfile xil_pn:name="control.vhd"/>
+      <outfile xil_pn:name="control_tb.vhd"/>
+      <outfile xil_pn:name="datapath.vhd"/>
+      <outfile xil_pn:name="idea_com.vhd"/>
+      <outfile xil_pn:name="idea_com_inner.vhd"/>
+      <outfile xil_pn:name="idea_rcs2.vhd"/>
+      <outfile xil_pn:name="keygen.vhd"/>
+      <outfile xil_pn:name="mulop.vhd"/>
+      <outfile xil_pn:name="mux2x1.vhd"/>
+      <outfile xil_pn:name="mux4x1.vhd"/>
+      <outfile xil_pn:name="reg16.vhd"/>
+      <outfile xil_pn:name="roundcounter.vhd"/>
+      <outfile xil_pn:name="rxcver.vhd"/>
+      <outfile xil_pn:name="tb_clockedround.vhd"/>
+      <outfile xil_pn:name="tb_idea_rcs2.vhd"/>
+      <outfile xil_pn:name="tb_roundcounter.vhd"/>
+      <outfile xil_pn:name="txmit.vhd"/>
+      <outfile xil_pn:name="uart.vhd"/>
+      <outfile xil_pn:name="xorop.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1769518264" xil_pn:in_ck="-5842145911190143227" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3951585796831366288" xil_pn:start_ts="1769518226">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="tb_idea_rcs2_beh.prj"/>
+      <outfile xil_pn:name="tb_idea_rcs2_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1769518265" xil_pn:in_ck="7625822055968594873" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4363743436166387043" xil_pn:start_ts="1769518264">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="tb_idea_rcs2_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1769517783" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1769517783">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1769517783" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-491295647712417674" xil_pn:start_ts="1769517783">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1769517783" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5919875462312676356" xil_pn:start_ts="1769517783">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1769517783" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1769517783">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1769517783" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7593702055467252300" xil_pn:start_ts="1769517783">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1769517783" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1769517783">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1769517783" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="2576757823203990150" xil_pn:start_ts="1769517783">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1769517808" xil_pn:in_ck="-4528925506238078753" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="457382141641498329" xil_pn:start_ts="1769517783">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="idea_com.lso"/>
+      <outfile xil_pn:name="idea_com.prj"/>
+      <outfile xil_pn:name="idea_com.syr"/>
+      <outfile xil_pn:name="idea_com.xst"/>
+      <outfile xil_pn:name="idea_com_vhdl.prj"/>
+      <outfile xil_pn:name="idea_com_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1769517809" xil_pn:in_ck="165603250054819965" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8173424641983909015" xil_pn:start_ts="1769517808">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

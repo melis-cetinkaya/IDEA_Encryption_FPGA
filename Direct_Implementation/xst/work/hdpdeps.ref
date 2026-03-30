@@ -1,0 +1,43 @@
+V3 23
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/addop.vhd 2025/11/16.15:07:19 P.20131013
+EN work/addop 1763669452 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/addop.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/addop/Behavioral 1763669453 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/addop.vhd \
+      EN work/addop 1763669452
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/idea.vhd 2025/11/20.19:00:19 P.20131013
+EN work/idea 1763669460 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/idea.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/idea/Structural 1763669461 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/idea.vhd \
+      EN work/idea 1763669460 CP round CP trafo
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/mulop.vhd 2025/11/16.22:04:01 P.20131013
+EN work/mulop 1763669450 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/mulop.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/mulop/Behavioral 1763669451 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/mulop.vhd \
+      EN work/mulop 1763669450
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/round.vhd 2025/11/20.17:35:18 P.20131013
+EN work/round 1763669456 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/round.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/round/Behavioral 1763669457 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/round.vhd \
+      EN work/round 1763669456 CP mulop CP addop CP xorop
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/trafo.vhd 2025/11/20.17:35:05 P.20131013
+EN work/trafo 1763669458 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/trafo.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/trafo/Behavioral 1763669459 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/trafo.vhd \
+      EN work/trafo 1763669458 CP mulop CP addop
+FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/xorop.vhd 2025/11/16.15:04:17 P.20131013
+EN work/xorop 1763669454 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/xorop.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/xorop/Behavioral 1763669455 \
+      FL /home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/direct/xorop.vhd \
+      EN work/xorop 1763669454

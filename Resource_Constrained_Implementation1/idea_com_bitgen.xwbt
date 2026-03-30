@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/nas/lrz/home/ge95gus/VHDL_System_Design_Lab_Workspace/vhdl_lab/03752843_rcs1/idea_com.ncd
+OUTFILE=/nas/lrz/home/ge95gus/VHDL_System_Design_Lab_Workspace/vhdl_lab/03752843_rcs1/idea_com.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/nas/lrz/home/ge95gus/VHDL_System_Design_Lab_Workspace/vhdl_lab/03752843_rcs1
+LICENSE=ISE
+USER_INFO=176488445_177900754_210800195_909

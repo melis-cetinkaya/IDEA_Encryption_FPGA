@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/nas/lrz/home/ge95gus/VHDL_System_Design_Lab_Workspace/vhdl_lab/03752843_rcs1/impact.xsl
+OUTFILE=/nas/lrz/home/ge95gus/VHDL_System_Design_Lab_Workspace/vhdl_lab/03752843_rcs1/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/nas/lrz/home/ge95gus/VHDL_System_Design_Lab_Workspace/vhdl_lab/03752843_rcs1
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/idea_com.xst" -ofn "/home/ise/VHDL_Lab_workspace/VHDL_System_Design_Lab/submit/rcs2/idea_com.syr" 
