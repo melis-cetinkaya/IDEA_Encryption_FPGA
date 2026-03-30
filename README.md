@@ -80,4 +80,4 @@ Executed in **Xilinx ISim** for every module and architecture.
 
 ### ✔ RCS1 / RCS2 / RCS2+  
 - All sequential architectures synthesize and map successfully  
-- RCS2+ fits comfortably in the FPGA
+- RCS2+ fits comfortably in the Xilinx Spartan-3E FPGA
